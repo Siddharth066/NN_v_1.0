@@ -1,0 +1,14 @@
+Matrix data:
+	no_of_rows:- an integer that stores the number of rows provided by the user.
+	no_of_cols:- an integer that stores the number of columns provided by the user.
+	matrix:- a 2d array of double that contains all the data in the matrix.
+	
+Matrix properties:
+	Matrix(integer, integer):- constructor that initializes no of rows and columns and initializes the matrix and makes all elements in matrix to 0.
+	reset():- a void method that reset the matrix by assigning all the elements of the matrix to 0.
+
+Matrix static properties:
+	add(Matrix object, [integer,float,double,Matrix object]):- a static method returns a matrix which is produced by adding the integer,float or double to all the elements of the matrix object provided by the user.
+	sub(Matrix object, [integer,float,double,Matrix object]):- a static method returns a matrix which is produced by subtracting the integer,float or double to all the elements of the matrix object provided by the user.
+	multiply(Matrix object, [integer,float,double,Matrix object]):- a static method returns a matrix which is produced by multiplying the integer,float or double to all the elements of the matrix object provided by the user.
+	transpose(Matrix object):- return a matrix object, which contains the transpose of the matrix object provided by the user.
